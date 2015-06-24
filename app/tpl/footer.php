@@ -1,0 +1,3 @@
+﻿<footer><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />Este obra cuyo autor es <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Andreu Sanz y Aida Dahdah</span> está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional de Creative Commons</a>.</footer>
+</body>
+</html>

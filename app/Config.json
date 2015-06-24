@@ -1,0 +1,18 @@
+{
+    "driver":"mysql",
+    "dbname":"to",
+    "dbhost":"to-2dawcredito.rhcloud.com",
+    "dbuser":"adminncayJhU",
+    "dbpass":"u6hl1k_Xummb",
+    "app_data":{
+        "css":"css/app.css",
+        "js":"js/application.js",
+        "titol":"Libreria TLO",
+        "logo":"img/logo.png",
+        "img":"img/",
+        "apli":"KMan",
+        "theme":"pub/themes/k/",
+        "app_w":""
+    }
+}
+

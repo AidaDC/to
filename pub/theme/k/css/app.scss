@@ -1,0 +1,614 @@
+@import url(http://fonts.googleapis.com/css?family=);
+
+*{
+	margin:0;
+	padding:0;
+     font-family: 'Lobster', sans-serif;
+}
+
+html,body{
+	    width: 100%; 
+}
+
+body{
+	background-color:#40B9FF;
+	font-family: 'Lobster', sans-serif;
+}
+header{
+	background-color:#2F73E8;
+	color:white;
+	height: 100px;
+	width: 100%;
+}
+ h3{
+	font:normal 60pt Lobster;
+	color:#FFFFFF;
+	text-shadow: 0 1px 0 #ccc,
+ 				0 2px 0 #c9c9c9,
+ 				0 3px 0 #bbb,
+ 				0 4px 0 #b9b9b9,
+ 				0 5px 0 #aaa,
+ 				0 6px 1px rgba(0,0,0,.1),
+				0 0 5px rgba(0,0,0,.1),
+				0 1px 3px rgba(0,0,0,.3),
+				0 3px 5px rgba(0,0,0,.2),
+				0 5px 10px rgba(0,0,0,.25),
+				0 10px 10px rgba(0,0,0,.2),
+				0 20px 20px rgba(0,0,0,.15);
+				height: 100px;
+				float:left;
+				display: block;
+	}
+
+#vsesion{
+	color: #40B9FF;
+	margin-top: 2%;
+}
+.error{
+	color:red;
+	font-weight: bolder;
+	display:block;
+	 text-align: center;
+	 margin-top: 4%;
+	 margin-bottom: 4%;
+}
+
+label{
+	display: block;
+	/*text-align: center;*/
+	
+}
+
+#datos{
+display: inline-flex;
+width: 50%;
+flex-direction:column;
+top:100px;
+}
+
+#datos2{
+display: inline-flex;
+width: 50%;
+flex-direction:column;
+margin-top: 76px;
+}
+
+.logo{
+	height: 100px;
+	float:left;
+	display: block;
+	
+}
+
+.logo2{
+	height: 150px;
+	display: block;
+	margin:auto;
+}
+.header-tit{
+	width: 48%;
+	float:left;
+	display: block;
+}
+.regist{
+	padding-top: 3px;
+	padding-right: 3px;
+	background-color:#6dc3b1;
+	width:50%;
+	text-align: right;
+	float: left;
+	color:white;
+	text-decoration: none;
+	color:white;
+	font-variant: small-caps;
+	margin-top:3%;
+}
+
+
+.regist input {
+	margin-left: 0.5em;
+	font-variant: small-caps;
+
+}
+.bEntra{
+		color:#FFF;
+		background-color: #000;
+
+}
+
+.breg{
+		color:#FFF;
+		background-color: #000;
+		width: 300px;
+        height: 40px;
+        text-align: center;
+        margin-bottom:5%!important;
+	    margin-left: 16%!important;
+	    border:1px solid grey;
+        line-height: 38px;	    
+}
+
+#regs{
+	line-height: 100px;
+}
+.registre{
+  padding-top: 3px;
+  padding-right: 3px;
+  margin:auto;
+  color: black;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+.registre2{
+  padding-top: 3px;
+  padding-right: 3px;
+  margin:auto;
+  color: black;
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 10%;
+ 
+
+}
+
+/* Estilo por defecto */
+ 
+#principal #logs #arr {
+	margin-top:5%!important ;
+
+}
+#principal #logs input {
+	margin-bottom:5%!important;
+	margin-top:5%!important;
+
+}
+
+#menu{
+	display: flex;
+	width: 100%;
+	flex-direction:row;
+	color:#ffffff;
+	height: 50px;
+	justify-content: center;
+	line-height: 50px;
+}
+
+#menu div {
+	display: inline-flex;
+     background-color: #3349FF;
+	flex:1;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.vacio{
+	color:#ffffff;
+	text-align: center;
+	font-size: 2em;
+}
+
+#contenedor{
+	display: flex;
+	width: 100%;
+	flex-direction:row;
+}
+
+#contenedor > div {
+	display: inline-flex;
+	flex:2;
+	text-align: justify;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+h2{
+	margin-left: 1%;
+}
+
+#contenedor > #columnas {
+flex-direction:column;
+}
+.espacio{
+	margin-top:2%;
+	margin-bottom: 2%;
+}
+
+.espacio2{
+	margin-top:5%;
+}
+#textoo{
+	
+	margin-top:5%;margin-left: 42%;
+}
+
+#principal{
+	display: flex;
+	width: 100%;
+}
+
+#principal > div{
+	display: inline-flex;
+	justify-content:center;
+}
+
+#logs{
+	display: none;
+	position: absolute;
+	background-color: #2F73E8;
+    z-index: 1;
+    left:72%;
+    justify-content:center;
+    vertical-align: center;
+    text-align: center;
+    align-items:center;
+}
+
+#principal #logos{
+	flex:1;
+}
+
+#principal #titulos{
+	flex:4;
+	line-height: 100px;
+}
+
+#principal #login{
+	flex:7;
+	line-height: 100px;
+
+}
+
+#dpersonales{
+	font-size: 1em;
+	width: 100%;
+	justify-content:center;
+}
+
+#principal input {
+  font-size: 1em;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  margin: 5px; } 
+
+#title{
+	width: 100%;
+	font-size: 2em;
+	}
+
+	/** CSS AIDA*/ 
+
+	
+#princ{
+	display: flex;
+	width: 100%;
+}
+#princ > div {
+	justify-content:center;
+	display: inline-flex;
+	flex:4;
+}
+
+
+ #descrip {
+  height: 115px;
+}
+
+ #descrip p {
+margin-bottom: 2%;
+}
+
+
+#libros{
+   margin-top: 5%;
+   align-items:center;
+   width: 100%;
+   display:flex; 
+    color: #40B9FF!important;
+}
+
+ #libros > div {
+	display: inline-flex;
+	flex:1;
+   margin-left: 20px;
+   flex-direction:row;
+   color: #40B9FF!important;
+}
+
+#librop{
+   margin-top: 5%;
+   display:flex;
+   margin-left:2%;
+}
+#titulotira{
+	margin-left: 2%;
+}
+
+#librop > div{
+	display: inline-flex;
+flex-direction:column;
+}
+
+#libros > #libro > #der{
+width: 100%;
+flex-direction:column;
+color: #000000!important;
+}
+
+#librop > #derp{
+flex-direction:row;
+margin-bottom: 1%;
+width: 100%;
+}
+
+
+#librop > #derp > #descripcion{
+  margin-left: 2%;
+  width: 49%;
+}
+
+#librop > #derp > #der2p{
+display: flex;
+}
+
+
+
+#stock{
+	color:red;
+}
+
+#libros > #libro > #der > #der2{
+width:50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left:25%;
+  color: #000000!important;
+
+
+}
+
+p{
+	color:black;
+	font-weight: bold;
+}
+
+#libros > #libro > #der > p {
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+
+#izq{
+	margin-right: 4%;
+	  width: 70%;
+}
+
+#izqp{
+	margin-right: 2%;
+}
+
+#princ > #logo{
+	flex:1;
+	width: 150px;
+	justify-content:left !important;
+	margin-left: 2%;
+}
+#log >div{
+	margin-left: 5%;
+}
+#log {
+	justify-content:center !important;
+	flex:1 !important;
+}
+
+#titulotira{
+	font-size: 2em;
+	display: flex;
+	margin-top:2%; 
+	margin-bottom:-2% ;
+	margin-left: 1.5%;
+	color:#000;
+}
+
+
+footer {
+background-color:#2F73E8;
+background-repeat: repeat-x;
+background-position: center bottom;
+height:150px;
+clear: both;
+/*margin: 0px;*/
+padding: 20px 0px 0px;
+text-align: center;
+width: 100%;
+}
+
+#comprar    {
+color: #FFF;	
+text-decoration: none;
+margin: auto;
+
+}
+
+#comp{
+display: inline-flex;
+color: #FFF;
+background-color: #6DC3B1;
+cursor: pointer;
+border: 0px none;
+border-radius: 20px;
+height: 34px;
+text-decoration: none;
+text-align: center;
+background-color:#2F73E8;
+margin-right: 17px;
+text-align: center;
+margin:auto;
+}
+
+#titulo{
+	line-height: 100px;
+}
+ #libro{flex-direction:column;}
+
+#imagen{width:150px;height: 150px;}
+
+#comp  input {
+font-size: 1em;
+min-width: 135px;
+padding:5%;	
+}
+
+#libro  form {
+	display: flex;
+	flex-direction:inline-flex;
+}
+
+#desplazar{
+	  margin-top: -19%;
+}
+
+
+#tabla {
+
+  justify-content: center;
+  margin-top: 12%;
+  margin-left: 12%;
+  border-radius: 10px 0px 10px 0px;
+  color:#ffffff;
+background-color: #467FF5;
+  font-size: 20px;
+  border:1px;
+font-weight:bloder;
+color:#ffffff;}
+
+#tabla tr td{
+	text-align: center;
+	 border-collapse:collapse;
+}
+
+ #detalles{font-size: 16.3px;;
+ 	border:1px solid;
+   margin-left: 12%;
+     margin-right: 29px;
+color:#ffffff;
+background-color: #467FF5;}
+
+
+#tabla2 {
+
+  justify-content: center;
+  margin-top: 12%;
+   margin-left: 39%;
+  border-radius: 10px 0px 10px 0px;
+  color:#ffffff;
+background-color: #467FF5;
+  font-size: 20px;
+  border:1px;
+font-weight:bloder;
+color:#ffffff;}
+
+#tabla2 tr td{
+	text-align: center;
+	 border-collapse:collapse;
+}
+
+
+
+@media(max-width:850px){
+ #titulotira{font-size: 2em;display: flex;margin-top:4%;margin-bottom:-2% ;}
+ #libros > div {justify-content:center;display:flex;width: 50%;}
+ #libros > #libro{width: 50%;}
+ #libros > #libro > div{width: 20%;}
+ #libros > #libro > #der  > #descrip{width: 50%;margin-top: 2%;}
+ #izq > #imagen{margin-left: 32%;}
+ #izqp > #imagen{margin-left: 20%;}
+ #librop > #derp  > #descrip{width: 50%;margin-left: 14%;}
+ #librop > #derp > #descripcion{width: 50%;margin-top: 20%;margin-left: 80px;}
+ #librop > #derp >  #der2p {width: 20%;margin-top: 1%; margin-left:10%;}
+ #menu{flex-direction:column;display: none;margin-bottom:60%;}
+ #menu > div{width: 100%;background-color: #3349FF;justify-content:center;}
+ #regs{line-height:10px;}
+ .breg {margin-left: 3%!important;}
+ #tabla{  font-size: 13px;margin-left: 25px;}
+  #tabla2{  font-size: 13px;margin-left:30%;}
+ #detalles{font-size: 13px;margin-left: 0px;border:1px solid;}
+h3{
+	font: normal 1em Lobster;
+  color: #FFFFFF;
+  text-shadow: none;
+  float: left;
+  line-height: 100px;
+  display: block;
+	}
+#principal #logos{
+	flex:1;
+}
+
+#principal #titulos{
+	flex:4;
+	line-height: 100px;
+}
+
+#principal #login{
+	flex:7;
+	line-height: 100px;
+
+}
+#logs{	
+    left:60%;    
+}
+
+}
+ 
+
+@media(max-width: 640px){
+#titulotira{font-size: 2em;display: flex;margin-top:2%;margin-bottom:-2% ;margin-left: 20%;}
+#libros {justify-content:center;display:flex;flex-direction:column;width: 100%;color:#40B9FF!important; margin-left:-10px;}
+#libros > #libro{width: 100%;flex-direction:column;}
+#libros > #libro > div{width: 100%;}
+#libros > #libro > #der  > #descrip{width: 100%;margin-left: 20%;margin-top: 2%;}
+#izq > #imagen{margin-left: 20%;} 
+ #izqp > #imagen{margin-left: 42%;}
+#librop > #derp  > #descrip{width: 100%;margin-left: 20%;margin-top: 2%;}
+#librocolumnp >#derp{flex-direction:column;}
+#librop > #derp > #descripcion{width: 100%;margin-top: 32%;margin-left: -2px;flex-direction: column;}
+#librop > #derp >  #der2p {width: 100%;margin-top: 2%;}
+#menu{flex-direction:column;display: none;margin-bottom:60%;}
+#menu > div{width: 100%;background-color: #3349FF;justify-content:center;}
+#regs{line-height:10px;font-size: 10px;margin-left: none;}
+.breg {margin-left: 2%!important;}
+#tabla{font-size: 10px;margin-left:-10px;margin-top:10%;}
+#tabla2{margin-top:10%;margin-left: 0px;}
+#detalles{font-size: 10px;margin-left:0px; border:1px solid;}
+ h3{
+	font: normal 1em Lobster;
+  color: #FFFFFF;
+  text-shadow: none;
+  float: left;
+  line-height: 100px;
+  display: block;
+	}
+
+#principal #logos{
+	flex:1;
+}
+
+#principal #titulos{
+	flex:3
+}
+
+#principal #login{
+	flex:1;flex-direction:row;
+
+}
+#logs{	
+    left:0%;    
+}
+}
